@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: repeat(3,90px);
+            column-gap: 5px;
+            row-gap: 5px;
+            
+        }
+        .month{
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .year{
+            grid-column: 1/4;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <div class="parent">
+    <div class="year month">2025</div>
+    <div class="month">Jan</div>
+    <div class="month">Feb</div>
+    <div class="month">Mar</div>
+    <div class="month">Apr</div>
+    <div class="month">May</div>
+    <div class="month">Jun</div>
+    <div class="month">Jul</div>
+    <div class="month">aug</div>
+    <div class="month">Sep</div>
+    <div class="month">Oct</div>
+    <div class="month"><a href="january.html">Nov</a></div>
+    <div class="month">Dec</div>
+    
+    
+   </div> 
+</body>
+</html>
